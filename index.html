@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today weather</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="vh-100 d-flex align-items-center">
+    <div class="container w-50 border rounded shadow main">
+            <div class="p-2 w-100 d-flex justify-content-center mt-3">
+                <input type="text" placeholder="enter city name" class="w-75 border-0 rounded p-1 ps-2 shadow" id="city-name">
+                <div class="btn bg-white border rounded-circle ms-2 shadow "><i class="bi bi-search"></i></div>
+            </div>  
+            <div class="icon d-flex justify-content-center my-4">
+                <i class="bi bi-cloud-fill"></i>
+            </div>
+            <div class="main-content d-flex justify-content-center">
+                <h1 id="temprature">22°C</h1>
+            </div>
+            <div class="main-content d-flex justify-content-center">
+                <h2 id="city">Malappuram</h2>
+            </div>
+            <div class="container my-5">
+                <div class="foot d-flex justify-content-evenly">
+                    <div class="d-flex align-items-center">
+                        <div><i class="bi bi-water fs-3"></i></div>
+                        <div class="ms-3 ">
+                            <h5 id="hum">50%</h5>
+                            <h6>Humidity</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ">
+                        <div><i class="bi bi-wind fs-3"></i></div>
+                        <div class="ms-3 lh-sm">
+                            <h5 id="wint">15 km/h</h5>
+                            <h6>Wind speed</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
