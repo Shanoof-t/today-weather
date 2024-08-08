@@ -7,3 +7,8 @@
 .weather-main{
     display: none;
 }
+.invalid{
+    margin-left: 4rem;
+    color: red;
+    display: none;
+}
